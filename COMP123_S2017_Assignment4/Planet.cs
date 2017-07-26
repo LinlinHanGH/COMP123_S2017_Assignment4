@@ -7,16 +7,13 @@ using System.Threading.Tasks;
 /*
  * Name: Linlin Han
  * Date: July 26, 2017
- * Description: Assignment4 - Abstract Planets
- * Version: 0.1 - Created Program class
+ * Description: This is Abstract Planet class
+ * Version: 0.1 - Created Planet class
  */
 
 namespace COMP123_S2017_Assignment4
 {
-    class Program
+    class Planet
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }
