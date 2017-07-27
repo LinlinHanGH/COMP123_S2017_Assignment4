@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 /*
  * Name: Linlin Han
+ * Number: 300883493
  * Date: July 26, 2017
  * Description: This is Abstract Planet class
  * Version: 0.2 - Added fields properties constructor and methods to Planet class
