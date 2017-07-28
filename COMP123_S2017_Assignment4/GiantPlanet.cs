@@ -8,7 +8,7 @@ using System.Threading.Tasks;
  * Number: 300883493
  * Date: July 26, 2017
  * Description: This is Abstract Planet class
- * Version: 0.1 - Created GiantPlanet class
+ * Version: 0.2 - Added HasMoons HasRings method in GiantPlanet class
  */
 
 namespace COMP123_S2017_Assignment4
@@ -33,6 +33,29 @@ namespace COMP123_S2017_Assignment4
         // PRIVATE METHODS
 
         // PUBLIC METHODS
-        
+        /// <summary>
+        /// This method will return true if the MoonCount property is greater than zero
+        /// </summary>
+        /// <returns></returns>
+        public bool HasMoons()
+        {
+            if (MoonCount > 0)
+                return true;
+            else
+                return false;
+        }
+
+        /// <summary>
+        /// This method will return true if the RingCount property is greater than zero
+        /// </summary>
+        /// <returns></returns>
+        public bool HasRings()
+        {
+            if (RingCount > 0)
+                return true;
+            else
+                return false;
+        }
+
     }
 }
