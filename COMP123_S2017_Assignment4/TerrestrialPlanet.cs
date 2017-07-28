@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-/*
+﻿/*
  * Name: Linlin Han
  * Number: 300883493
- * Date: July 26, 2017
+ * Date: July 28, 2017
  * Description: This is TerrestrialPlanet class
- * Version: 0.1 - Created TerrestrialPlanet class
+ * Version: 0.1 - Added HasMoons Habitable method in TerrestrialPlanet class
  */
 namespace COMP123_S2017_Assignment4
 {
@@ -32,7 +27,30 @@ namespace COMP123_S2017_Assignment4
         // PRIVATE METHODS
 
         // PUBLIC METHODS
-       
-        
+        /// <summary>
+        /// This method will return true if the MoonCount property is greater than zero
+        /// </summary>
+        /// <returns></returns>
+        public bool HasMoons()
+        {
+            if (MoonCount > 0)
+                return true;
+            else
+                return false;
+        }
+
+        /// <summary>
+        /// This method will return true if the oxygen instance variable is set to true
+        /// </summary>
+        /// <returns></returns>
+        public bool Habitable()
+        {
+            if (this._oxygen == true)
+                return true;
+            else
+                return false;
+        }
+
+
     }
 }

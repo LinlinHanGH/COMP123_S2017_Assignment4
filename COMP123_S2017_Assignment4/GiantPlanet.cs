@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-/*
+﻿/*
  * Name: Linlin Han
  * Number: 300883493
- * Date: July 26, 2017
+ * Date: July 28, 2017
  * Description: This is Abstract Planet class
  * Version: 0.2 - Added HasMoons HasRings method in GiantPlanet class
  */
