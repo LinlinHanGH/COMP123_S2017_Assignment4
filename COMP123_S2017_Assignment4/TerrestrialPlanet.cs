@@ -7,32 +7,32 @@ using System.Threading.Tasks;
  * Name: Linlin Han
  * Number: 300883493
  * Date: July 26, 2017
- * Description: This is Abstract Planet class
- * Version: 0.1 - Created GiantPlanet class
+ * Description: This is TerrestrialPlanet class
+ * Version: 0.1 - Created TerrestrialPlanet class
  */
-
 namespace COMP123_S2017_Assignment4
 {
     /// <summary>
-    /// This is GiantPlanet class.
+    /// This is TerrestrialPlanet class
     /// </summary>
-    public class GiantPlanet : Planet,IHasMoons,IHasRings
+    public class TerrestrialPlanet : Planet, IHasMoons, IHabitable
     {
         // PRIVATE INSTANCE VARIABLES (FIELDS)
-        private string _type;
+        private bool _oxygen;
 
         // PUBLIC PROPERTIES
 
 
         // CONSTRUCTORS
-        public GiantPlanet(string name, double diameter, double mass, string type)
+        public TerrestrialPlanet(string name, double diameter, double mass, bool oxygen)
             : base(name, diameter, mass)
         {
-            this._type = type;
+            this._oxygen = oxygen;
         }
         // PRIVATE METHODS
 
         // PUBLIC METHODS
+       
         
     }
 }

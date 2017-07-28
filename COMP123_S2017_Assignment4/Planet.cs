@@ -128,8 +128,8 @@ namespace COMP123_S2017_Assignment4
             string outputString="";
             outputString += "-----------------------------------------------------------\n";
             outputString += "Name: " + this.Name + "\n";
-            outputString += "Diameter: " + this.Diameter;
-            outputString += "Mass: " + this.Mass;
+            outputString += "Diameter: " + this.Diameter + "km\n";
+            outputString += "Mass: " + this.Mass + "*10^23kg\n";
             outputString += "-----------------------------------------------------------\n";
             //Console.WriteLine("Name: {0}"+"\n"+"Diameter: {1}" + "\n"+"Mass: {2}",
             //    this.Name,this.Diameter,this.Mass);
