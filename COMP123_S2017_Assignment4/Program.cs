@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 /*
  * Name: Linlin Han
  * Number: 300883493
- * Date: July 26, 2017
+ * Date: July 28, 2017
  * Description: Assignment4 - Abstract Planets
- * Version: 0.1 - Created Program class
+ * Version: 0.2 - Created a new giantPlanet object and a new terristrial object in Program class
  */
 
 namespace COMP123_S2017_Assignment4
@@ -18,8 +18,15 @@ namespace COMP123_S2017_Assignment4
     {
         static void Main(string[] args)
         {
-            
+            GiantPlanet giantPlanet = new GiantPlanet("Jupiter", 142800, 18980, "Gas");
+            Console.WriteLine(giantPlanet.ToString());
+            TerrestrialPlanet terrestrialPlanet = new TerrestrialPlanet("Earth", 12742, 3.3, true);
+            Console.WriteLine(terrestrialPlanet.ToString());
+           
+
         }
+
         
+
     }
 }
